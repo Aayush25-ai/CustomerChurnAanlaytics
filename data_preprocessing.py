@@ -1,24 +1,3 @@
-"""
-data_preprocessing.py
-----------------------
-STEP 1 of the pipeline.
-
-Purpose:
-    Load the raw Telco Customer Churn CSV, clean it, engineer/encode
-    features, split into train/test sets, and save a reusable
-    preprocessing pipeline (so the exact same transformations can later
-    be applied to new/unseen customer data during prediction).
-
-Why a separate preprocessing script?
-    Keeping preprocessing separate from model training means:
-      1. You can re-run/debug cleaning steps without retraining a model.
-      2. The exact transformations get saved and reused at prediction
-         time -> no "training/serving skew" (a very common real-world bug).
-
-Run this file directly:
-    python src/data_preprocessing.py
-"""
-
 import os
 import pandas as pd
 import numpy as np
