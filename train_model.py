@@ -1,23 +1,3 @@
-"""
-train_model.py
-----------------
-STEP 2 of the pipeline.
-
-Purpose:
-    Load the preprocessed train/test data, train several candidate
-    models, handle class imbalance, tune hyperparameters, compare models
-    by ROC-AUC, and save the best one to disk.
-
-Why compare multiple models?
-    There's no single "best" algorithm for every dataset. Logistic
-    Regression is fast and interpretable, Random Forest and XGBoost
-    usually capture non-linear patterns better. Comparing them
-    empirically (rather than guessing) is standard ML practice.
-
-Run this file directly (after data_preprocessing.py):
-    python src/train_model.py
-"""
-
 import os
 import joblib
 import numpy as np
