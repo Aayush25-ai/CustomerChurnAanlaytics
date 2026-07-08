@@ -1,18 +1,3 @@
-"""
-evaluate.py
-------------
-STEP 3 of the pipeline.
-
-Purpose:
-    Load the saved best model and test data, produce classification
-    metrics and diagnostic plots (confusion matrix, ROC curve, feature
-    importance) so you can judge whether the model is actually good
-    enough and where it makes mistakes.
-
-Run this file directly (after train_model.py):
-    python src/evaluate.py
-"""
-
 import os
 import joblib
 import matplotlib.pyplot as plt
