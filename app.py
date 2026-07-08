@@ -1,21 +1,3 @@
-"""
-app.py
--------
-STEP 5 (optional) — an interactive Streamlit web app.
-
-Purpose:
-    Let anyone enter a customer's details in a simple form and instantly
-    see the churn prediction + probability, without touching any code.
-    This is a common way to demo an ML pipeline to non-technical
-    stakeholders.
-
-Run with:
-    streamlit run app/app.py
-
-Note: run this from the project ROOT folder (not inside app/) so the
-relative paths to models/ resolve correctly, OR adjust MODEL_DIR below.
-"""
-
 import os
 import sys
 import joblib
