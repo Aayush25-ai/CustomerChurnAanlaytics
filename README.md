@@ -1,5 +1,4 @@
-# CustomerChurnAanlaytics
-# 📉 Customer Churn Predictor — End-to-End ML Project
+#  Customer Churn Predictor — End-to-End ML Project
 
 A complete, production-style machine learning pipeline that predicts whether a
 telecom customer will **churn** (leave the service) or stay, based on their
@@ -41,7 +40,7 @@ customer-churn-predictor/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **Recommended dataset:** [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 (available on Kaggle, originally published by IBM).
@@ -66,7 +65,7 @@ mv data/WA_Fn-UseC_-Telco-Customer-Churn.csv data/telco_churn.csv
 
 ---
 
-## 🧠 Pipeline Overview
+##  Pipeline Overview
 
 1. **Data Preprocessing** (`src/data_preprocessing.py`)
    - Load raw CSV
@@ -99,7 +98,7 @@ mv data/WA_Fn-UseC_-Telco-Customer-Churn.csv data/telco_churn.csv
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ```bash
 # 1. Clone the repo (after you've pushed it, see below)
@@ -129,7 +128,7 @@ streamlit run app/app.py
 
 ---
 
-## 🚀 Pushing This Project to GitHub
+##  Pushing This Project to GitHub
 
 Run these commands from inside the `customer-churn-predictor/` folder:
 
@@ -169,7 +168,7 @@ git push
 
 ---
 
-## 📈 Possible Extensions (great for learning further)
+##  Possible Extensions (great for learning further)
 - Add SHAP values for model explainability
 - Deploy the Streamlit app on Streamlit Community Cloud or Render
 - Add a FastAPI endpoint for production-style serving
@@ -178,7 +177,7 @@ git push
 
 ---
 
-## 📜 License
+## License
 This project is for educational purposes. The Telco Customer Churn dataset
 is publicly available on Kaggle under its own license — check the dataset
 page for details.
