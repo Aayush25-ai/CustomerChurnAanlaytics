@@ -1,24 +1,3 @@
-"""
-predict.py
------------
-STEP 4 of the pipeline.
-
-Purpose:
-    Load the saved preprocessor + trained model, and use them to predict
-    churn for brand-new/unseen customer data (a single customer dict,
-    or a whole CSV of new customers).
-
-Why reuse the saved preprocessor instead of writing new encoding logic?
-    The model was trained on data transformed a specific way (same
-    scaling parameters, same one-hot categories). If new data isn't
-    transformed identically, predictions will be wrong or the code
-    will crash on unseen categories. Reusing the exact fitted
-    preprocessor guarantees consistency between training and inference.
-
-Run this file directly for a demo prediction on one example customer:
-    python src/predict.py
-"""
-
 import os
 import joblib
 import pandas as pd
